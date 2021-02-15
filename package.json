@@ -23,11 +23,14 @@
   "dependencies": {
     "@aws-cdk/aws-apigateway": "1.86.0",
     "@aws-cdk/aws-codecommit": "^1.89.0",
+    "@aws-cdk/aws-codepipeline": "^1.89.0",
+    "@aws-cdk/aws-codepipeline-actions": "^1.89.0",
     "@aws-cdk/aws-dynamodb": "1.86.0",
     "@aws-cdk/aws-sns": "1.86.0",
     "@aws-cdk/aws-sns-subscriptions": "1.86.0",
     "@aws-cdk/aws-sqs": "1.86.0",
     "@aws-cdk/core": "1.86.0",
+    "@aws-cdk/pipelines": "^1.89.0",
     "cdk-dynamo-table-viewer": "^3.1.2"
   }
 }
