@@ -29,5 +29,7 @@ export class HitCounter extends cdk.Construct {
         });
 
         table.grantReadWriteData(this.handler);
+
+        props.downstream.grantInvoke(this.handler);
     }
 }
